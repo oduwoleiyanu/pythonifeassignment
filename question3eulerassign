@@ -1,0 +1,12 @@
+def max_prime(n):
+    i = 2 # two numbers
+    while i*i <= n:
+        while n % i == 0:
+            n /= i
+        i +=1
+    if (n > 1):
+        return n
+    
+                
+x = max_prime(600851475143)
+print(x)
