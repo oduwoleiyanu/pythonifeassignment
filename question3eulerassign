@@ -10,3 +10,4 @@ def max_prime(n):
                 
 x = max_prime(600851475143)
 print(x)
+## 6857.0
